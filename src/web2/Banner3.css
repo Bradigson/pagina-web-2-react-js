@@ -1,0 +1,40 @@
+.banner3{
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.banner3-video{
+    background:url(../web2/imgs/brooke-cagle--uHVRvDr7pg-unsplash.jpg);
+    background-size:cover;
+    display:grid;
+    justify-content: center;
+    place-items: center;
+    width:90%;
+    height:250px;
+}
+.banner3__content-content1, .banner3__content-content2{
+    display:flex;
+}
+
+.banner3__content-content1-i, .banner3__content-content2-i{
+    background:#eee;
+    width:250px;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+}
+
+.bx-fingerprint, .bx-gift{
+    font-size:30px;
+    color:#3498DB;
+}
+.content1 > p{
+    text-align: left;
+}
+.content2 > p{
+    text-align: left;
+}

@@ -1,5 +1,5 @@
 header{
-    background:;
+    
     position:fixed;
     height:100px;
     width:100%;
@@ -7,6 +7,12 @@ header{
     align-items: center;
     padding-left:20px;
     color:#eee;
+    transition:all 1s;
+    z-index: 99;
+}
+.sticky{
+    background:rgba(31, 97, 141 );
+    height:90px;
 }
 .navbar{
     background:#262626;
@@ -18,9 +24,11 @@ header{
     left:-450px;
     transition:all 1s;
     top:0;
+    overflow-y:hidden;
 }
 .change{
     left:0;
+    z-index: 999;
 }
 .header__navbar-ul{
 

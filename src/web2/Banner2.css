@@ -1,0 +1,35 @@
+.banner2{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.banner2-content > h2, p{
+    text-align: center;
+}
+
+.banner2-i{
+    text-align: center;
+
+}
+.banner2-i > i{
+    font-size:55px;
+    background:#eee;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    border-radius:20rem;
+    padding:10px;
+}
+
+.bx-basketball{
+    color:#BB8FCE;
+
+}
+.bx-file{
+    color:#A9DFBF;
+}
+
+.bxs-timer{
+    color:#27AE60;
+}
+.bx-world{
+    color:#3498DB;
+}

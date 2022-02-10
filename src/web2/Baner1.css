@@ -1,0 +1,31 @@
+.banner1-article1{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(21, 67, 96,.8 ), rgba(31, 97, 141,.9 )), url(./imgs/sorasak-KxCJXXGsv9I-unsplash.jpg);
+    background-size:cover;
+}
+.banner__article1__section1-h2{
+    color:#eee;
+    font-size:28px;
+}
+.banner__article1__section1-p{
+    font-size:18px;
+    color:#eee;
+}
+.banner__article1-section1{
+
+    animation:banner1Section1 2s linear 1;
+}
+
+@keyframes banner1Section1{
+    0%{
+        transform:translateY(50px);
+        opacity:0;
+    }
+    50%{
+        transform:translateY(0);
+        opacity:unset;
+    }
+}

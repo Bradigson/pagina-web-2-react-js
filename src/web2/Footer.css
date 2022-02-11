@@ -1,0 +1,66 @@
+.footer-container{
+    background:#283747;
+}
+.footer-content-1 > p{
+    text-align: left;
+}
+form{
+    background:#fff;
+    display:flex;
+    justify-content: space-between;
+    border-radius:20px;
+    padding:0 0px;
+}
+
+.form-control{
+    padding-left:25px;
+    border-radius:20px 0px 0px 20px;
+}
+.btn-f{
+    border-radius:0 20px 20px 0;
+}
+
+li{
+    list-style:inside;
+    margin-top: 10px;
+}
+li > a{
+    text-decoration: none;
+    font-size:17px;
+    color:#eee;
+}
+
+li > a:hover{
+    color:#5499C7;
+}
+
+
+.contact-me-content > li{
+    list-style: none;
+
+}
+
+.contact-me-content li div{
+    display:flex;
+    justify-content: space-around;
+}
+.contact-me-content li div > i{
+    font-size:25px;
+    background:rgba(225,255,255,.4);
+    border-radius:20rem;
+    padding:8px;
+
+}
+
+
+.copyRight{
+    color:#fff;
+    background:#1C2833 ;
+    
+}
+.copyRight > h2{
+    font-size:15px;
+}
+.copyRight > h3{
+    font-size: 10px;
+}

@@ -33,3 +33,24 @@
 .bx-world{
     color:#3498DB;
 }
+
+
+
+
+
+
+/*media querries*/
+
+@media screen and (min-width:750px){
+    .banner2{
+        display:flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .card{
+        width:45%;
+    }
+    #card1{
+        margin-right:5px;
+    }
+}

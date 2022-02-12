@@ -64,3 +64,40 @@ li > a:hover{
 .copyRight > h3{
     font-size: 10px;
 }
+
+
+
+
+
+
+
+
+
+/*media queries*/
+
+@media screen and (min-width:750px){
+    .footer{
+        padding:15px;
+    }
+    #ul-Content{
+        display:flex;
+    }
+    #ul-Content ul > h2{
+        font-size:18px;
+    }
+    #ul-Content ul li >p{
+        text-align: left;
+        width: 200px;
+    }
+
+
+
+
+
+
+    #redes{
+        display: flex;
+        justify-content: center;
+        justify-content: flex-start;
+    }
+}

@@ -4,6 +4,9 @@
     justify-content: center;
     flex-wrap:wrap;
 }
+.banner3-content{
+    width:100%;
+}
 
 .banner3-video{
     background:url(../web2/imgs/brooke-cagle--uHVRvDr7pg-unsplash.jpg);
@@ -37,4 +40,18 @@
 }
 .content2 > p{
     text-align: left;
+}
+
+
+
+
+
+/*media queries*/
+
+@media screen and (min-width:750px){
+
+    .banner3-video{
+    
+        height:450px;
+    }
 }

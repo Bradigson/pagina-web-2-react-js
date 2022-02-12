@@ -51,7 +51,7 @@ const Footer = ()=>{
                         <button className="btn btn-primary btn-f">Subcribe</button>
                     </form>
                 </div>
-                <div className="mt-5 text-white">
+                <div className="mt-5 text-white" id="ul-Content">
                     <Lists list1={lista1} /><br/>
                     <ul>
                         <h2 className='text-info'>Our Service</h2>
@@ -68,9 +68,9 @@ const Footer = ()=>{
 
                     <ul className="text-white contact-me-content">
                         <h2 className="text-info">About Moderna</h2>
-                        <li>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</li>
+                        <li><p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p></li>
                         <li className="mt-3">
-                            <div >
+                            <div id="redes">
                             <i className='bx bxl-twitter'></i>
                             <i className='bx bxl-facebook' ></i>
                             <i className='bx bxl-instagram' ></i>

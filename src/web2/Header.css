@@ -1,3 +1,6 @@
+body{
+    background: red;
+}
 header{
     
     position:fixed;
@@ -18,17 +21,17 @@ header{
     background:#262626;
     position:fixed;
     height:100vh;
-    width:100%;
+    width:100vw;
     display: flex;
     justify-content: center;
     left:-450px;
     transition:all 1s;
     top:0;
-    overflow-y:hidden;
+    overflow-y:block;
 }
 .change{
     left:0;
-    z-index: 999;
+    z-index: 100;
 }
 .header__navbar-ul{
 
@@ -58,6 +61,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    z-index:99;
 }
 
 .line{
@@ -91,4 +95,55 @@ header{
 }
 .dda{
     font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media squeries*/
+@media screen and (min-width:750px){
+    .hamburger-menu{
+        display:none;
+    }
+    header{
+        background:none;
+    }
+
+    .navbar{
+        width:100%;
+        max-height:90px;
+        left:0;
+        transition:all 0s;
+        background:rgba(31, 97, 141 );
+
+    }
+    .header__navbar-ul{
+
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__navbar-ul li {
+        
+    }
+    .header__navbar-ul li >a{
+        font-size:15px;
+    }
+    #dropdownMenuButton1{
+        font-size: 15px;;
+    }
 }

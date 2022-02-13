@@ -54,3 +54,28 @@
         margin-right:5px;
     }
 }
+
+
+
+
+
+
+
+@media screen and (min-width:1026px){
+    #card1{
+        display: grid;
+        grid-template-columns: 150px 150px;
+        place-items:center;
+        justify-content: center;
+        grid-column-gap:440px;
+    }
+
+    .card{
+        width:550px;
+        height:320px;
+        transition:all 1s;
+    }
+    .card:hover{
+        transform:scale(0.909);
+    }
+}

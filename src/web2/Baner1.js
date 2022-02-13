@@ -1,5 +1,7 @@
 import React from 'react';
 import './Baner1.css';
+
+
 class Banner1 extends React.Component{
     constructor(props){
         super(props)

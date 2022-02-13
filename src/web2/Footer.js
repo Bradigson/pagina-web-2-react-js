@@ -37,7 +37,9 @@ const Footer = ()=>{
     return(
         <div className="footer-container">
             <footer className="footer">
-                <div className="mt-3">
+               
+               <di className="footer-content-desktop">
+               <div className="mt-3">
                     <div className="text-white footer-content-1">
                         <h2>{state.footerContent1H2}</h2>
                         <p>{state.footerContent1p}</p>
@@ -81,12 +83,11 @@ const Footer = ()=>{
                     
             
                 </div>
-
-            <div className="copyRight text-center mt-5 pb-3 pt-3">
+               </di>
+                <div className="copyRight text-center mt-5 pb-3 pt-3">
                     <h2>© Copyright Bradigson. All Rights Reserved</h2>
                     <h3>Designed by <a href="">Bradigson</a></h3>
-
-            </div>    
+                </div>    
             </footer>
             
         </div>

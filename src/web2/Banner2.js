@@ -2,7 +2,7 @@ import './Banner2.css';
 
 const Banner2 = ()=>{
     return(
-        <div className="banner2 p-2 " id="card1">
+        <div className="banner2 p-2 mb-4" id="card1">
             <div className="card mt-4">
                 <div className="card-body">
                     <div className="banner2-i">
@@ -28,6 +28,7 @@ const Banner2 = ()=>{
                     </div>
                 </div>
             </div>
+
 
 
             <div className="card mt-4">

@@ -11,6 +11,8 @@ const Header = ()=>{
     const [menu, setMenu] = useState(false);
     const handleMenu = ()=>{
         setMenu(!menu);
+        let body = document.querySelector('body')
+        body.classList.toggle('body');
     }
     return(
         <div>

@@ -26,6 +26,7 @@ class Banner3 extends React.Component{
                             <h2>{this.state.content1H2}</h2>
                             <p>{this.state.content1P}</p>
                         </div>
+                    
 
                     </div>
                     <div className="banner3__content-content2 ps-3">

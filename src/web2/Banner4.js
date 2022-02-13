@@ -44,32 +44,32 @@ class Banner4 extends React.Component{
             
             <div className="banner4 p-2">
                <article >
-               <div className="banner4-content1 p-3">
+                <div className="banner4-content1 p-3">
                     <h2>{this.state.B4content1H1}</h2>
                     <hr className=""/>
                     <p>{this.state.B4content1P}</p>
                 </div>
                    
-                   <div className="banner4-box">
-                   <section>
+                <div className="banner4-box">
+                   <section className="banner4-box-1">
                    
-                   <div className="banner4-content2">
-                       <div className="content2-img">
+                       <div className="banner4-content2">
+                           <div className="content2-img">
                            <img src={B4Img}/>
-                       </div>
-                       <div className="content2-content mt-4 p-1">
+                           </div>
+                          <div className="content2-content mt-4 p-1 ">
                            <h2>{this.state.B4content2H2}</h2>
                            <p>{this.state.B4content2P}</p>
                            <ul>
                                {element}
                            </ul>
+                         </div>
+   
                        </div>
-   
-                   </div>
-                      </section>
+                    </section>
    
    
-                      <section className="section2 mt-5">
+                    <section className="section2 mt-5">
                           <div className="section2-img mt-5 p-3">
                               <img src={B4Section2Img}/>
                           </div>
@@ -77,11 +77,12 @@ class Banner4 extends React.Component{
                               <h2 >{this.state.B4section2H}</h2>
                               <p>{this.state.B4section2P}</p>
                           </div>
-                      </section>
+                    </section>
    
    
    
-                      <section className="section3 mt-5">
+   
+                    <section className="section3 mt-5">
                           <div className="section3-img mt-5 p-3">
                               <img src={B4Section3Img}/>
                           </div>
@@ -92,12 +93,13 @@ class Banner4 extends React.Component{
                                   {B4Section3}
                               </ul>
                           </div>
-                      </section>
+                    </section>
    
    
+
    
    
-                      <section className="section4 mt-5">
+                    <section className="section4 mt-5">
                           <div className="section4-img mt-5 p-3">
                               <img src={B4Section4Img}/>
                           </div>
@@ -107,7 +109,7 @@ class Banner4 extends React.Component{
    
                               Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                           </div>
-                      </section>
+                    </section>
                    </div>
                </article>
             </div>

@@ -29,3 +29,35 @@
         opacity:unset;
     }
 }
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1026px){
+    .banner__article1-section1{
+        width:1000px;
+    }
+    .banner__article1-section1 > h2{
+        font-size:60px;
+        text-shadow:1px 2px 2px rgba(0,0,0,.4);
+    }
+    .banner__article1-section1 > p{
+        font-size: 23px;
+    }
+
+    ::-webkit-scrollbar{
+        width:11px;
+        background:rgba(31, 97, 141,.9 );
+    }
+    ::-webkit-scrollbar-thumb{
+        background:#eee;
+        border-radius:20rem;
+        border:3px solid rgba(31, 97, 141,.9 );
+    }
+    
+}

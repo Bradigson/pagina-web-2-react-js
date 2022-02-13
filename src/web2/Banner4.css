@@ -196,4 +196,12 @@
     .section2-content, .section3-content, .section4-content{
         width:600px;
     }
+
+
+    .banner4{
+        transition: all 1s;
+    }
+    .menu-dark{
+        background:#262626;
+    }
 }

@@ -17,7 +17,7 @@ const Banner2 = ()=>{
             </div>
 
 
-            <div className="card mt-4">
+            <div className="card mt-4 card2">
                 <div className="card-body">
                     <div className="banner2-i">
                       <i className='bx bx-file'></i>
@@ -31,7 +31,7 @@ const Banner2 = ()=>{
 
 
 
-            <div className="card mt-4">
+            <div className="card mt-4 card3">
                 <div className="card-body">
                     <div className="banner2-i">
                       <i className='bx bxs-timer'></i>
@@ -45,7 +45,7 @@ const Banner2 = ()=>{
             </div>
 
 
-            <div className="card mt-4">
+            <div className="card mt-4 card4">
                 <div className="card-body">
                     <div className="banner2-i">
                       <i className='bx bx-world'></i>

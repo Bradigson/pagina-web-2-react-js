@@ -38,7 +38,7 @@ const Footer = ()=>{
         <div className="footer-container">
             <footer className="footer">
                
-               <di className="footer-content-desktop">
+               <div className="footer-content-desktop">
                <div className="mt-3">
                     <div className="text-white footer-content-1">
                         <h2>{state.footerContent1H2}</h2>
@@ -83,7 +83,7 @@ const Footer = ()=>{
                     
             
                 </div>
-               </di>
+               </div>
                 <div className="copyRight text-center mt-5 pb-3 pt-3">
                     <h2>© Copyright Bradigson. All Rights Reserved</h2>
                     <h3>Designed by <a href="">Bradigson</a></h3>

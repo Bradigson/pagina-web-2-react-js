@@ -171,6 +171,35 @@ header{
     #dropdownMenuButton1{
         font-size:21px;
     }
-    
 
+    .bxs-moon{
+        color:#eeee;
+        font-size:17px;
+    }
+    .btn-clock{
+
+        background:none;
+        border-radius:20rem;
+    }
+
+    .menu-dark{
+        transition:all 1s;
+        background:#262626;
+    }
+    .navbar{
+        transition: all 1s;
+    }
+    .bxs-time-five{
+        font-size: 30px;
+        color:#eee;
+        text-shadow:0 0 5px #58D68D,
+        0 0 15px #58D68D,
+        0 0 30px #58D68D;
+    }
+
+}
+@media screen and (max-width:1000px){
+    .time, .mode-dark{
+        display:none;
+    }
 }

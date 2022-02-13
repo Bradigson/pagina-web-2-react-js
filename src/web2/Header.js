@@ -13,6 +13,34 @@ const Header = ()=>{
         setMenu(!menu);
         let body = document.querySelector('body')
         body.classList.toggle('body');
+        
+    }
+    const handleMenuDark   = ()=>{
+        let menuDark = document.querySelector('.navbar');
+        let banner2 = document.querySelector('.banner2');
+        let banner3 = document.querySelector('.banner3');
+        let banner4 = document.querySelector('.banner4');
+        let card1 = document.querySelector('.card');
+        let card2 = document.querySelector('.card2');
+        let card3 = document.querySelector('.card3');
+        let card4 = document.querySelector('.card4');
+        let App = document.querySelector('.App')
+        menuDark.classList.toggle('menu-dark');
+        banner2.classList.toggle('menu-dark');
+        banner3.classList.toggle('menu-dark');
+        banner4.classList.toggle('menu-dark');
+        card1.classList.toggle('card-dark');
+        card2.classList.toggle('card-dark');
+        card3.classList.toggle('card-dark');
+        card4.classList.toggle('card-dark');
+        App.classList.toggle('menu-dark');
+    }
+    const handleClock = ()=>{
+        let clockBody = document.querySelector('body');
+        //clockBody.classList.toggle('clock-body');
+        let clock = document.querySelector('.clock');
+        clock.classList.toggle('show');
+        clock.classList.remove('close')
     }
     return(
         <div>
@@ -25,6 +53,8 @@ const Header = ()=>{
                         <div className="line line-3"></div>
                     </div>
                     <ul className="header__navbar-ul text-center">
+                        <li className='time'><i class='bx bxs-time-five' onClick={()=> handleClock()} ></i></li>
+                        <li className="mode-dark"><button className="btn-clock" onClick={handleMenuDark}><i class='bx bxs-moon' ></i></button></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Service</a></li>

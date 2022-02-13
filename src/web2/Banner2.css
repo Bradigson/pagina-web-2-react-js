@@ -78,4 +78,11 @@
     .card:hover{
         transform:scale(0.909);
     }
+    .banner2{
+        transition: all 1s;
+    }
+    .card-dark{
+        background: #34495E ;
+
+    }
 }

@@ -108,5 +108,14 @@
         align-items: center;
         padding:10px;
     }
+
+    .banner3{
+
+        transition: all 1s;
+    }
+    .menu-dark{
+        background: #262626;
+        color:#eee;
+    }
     
 }
